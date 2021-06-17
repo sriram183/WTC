@@ -1,0 +1,90 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url('south.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+/*cricket-card*/
+.cricket-card{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	background: hidden;
+	transition: 0.7%;
+	box-shadow: 0 0 0 10px rgba(255,255,255,0.35);
+
+}
+.cricket-card h2 {
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.7s;
+
+}
+.cricket-card:hover h2 {
+	background: #09c9f2;
+	color: #fff;
+}
+.cricket-card:hover{
+	background: #fff; 
+}
+
+
+/* end */
+.all-details{
+	position: relative;
+}
+.VS {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 50%;
+	background: #e91e63;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	margin: 20px auto;
+}
+.date{
+ 	margin: 20px 0 0;
+}
+.INDIA{
+	width: 200px;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px 20px 20px;
+	text-align: center;
+}
+.NEWZEALAND{
+	width: 200px;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px 20px 20px;
+	text-align: center;
+}
+.virat img,
+.kane img{
+	width: 100%;
+}
+.details {
+	width: 200px;
+	min-height: 200px;
+	float: left;
+	text-align: center;
+	transition: 0.7s;
+}
+h3.team-cmn{
+	text-align: center;
+	padding: 15px 0 0;
+	margin-bottom: 25px;
+}
+
+
+
